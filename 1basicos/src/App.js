@@ -14,6 +14,11 @@ function App() {
     profesion:"Ingeniero de sistemas"
   }
 
+  // enviar funciones
+  const saludarFn =(name)=>{
+    alert("Hola como esta " + name );
+}
+
   return (
     <div className="App">
       <Saludar
@@ -27,6 +32,7 @@ function App() {
 
       <Objecto
         user={user}
+        saludarFn={saludarFn}
       />
     </div>
   );
