@@ -3,7 +3,7 @@ import React from 'react'
 export default function Objecto(props) {
     const {user, saludarFn}= props;
 
-    const {nombre,edad,ciudad,profesion}=user;
+    const {nombre,edad,ciudad,profesion="Fumador"}=user;
 
     return(
         <div>
