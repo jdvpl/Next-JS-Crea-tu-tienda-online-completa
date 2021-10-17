@@ -1,14 +1,16 @@
 import React from 'react'
 
 export default function Objecto(props) {
-    console.log(props)
+    const {user, saludarFn}= props;
+
+    const {nombre,edad,ciudad,profesion}=user;
 
     return(
         <div>
-            <h2>Objetos:Hola  {props.user.nombre} tiene {props.user.edad} años,  de la ciudad {props.user.ciudad} <br/> y es {props.user.profesion}</h2>
+            <h2>Objetos:Hola  {nombre} tiene {edad} años,  de la ciudad {ciudad} <br/> y es {profesion}</h2>
 
             <button 
-                onClick={() => props.saludarFn(props.user.nombre)}
+                onClick={() => saludarFn(nombre)}
             >Hola</button>
         </div>
     );
