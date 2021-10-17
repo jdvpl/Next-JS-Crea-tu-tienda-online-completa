@@ -17,6 +17,7 @@ function App() {
   // enviar funciones
   const saludarFn =(name)=>{
     alert("Hola como esta " + name );
+    alert(`Hola como esta ${name}` );
 }
 
   return (
