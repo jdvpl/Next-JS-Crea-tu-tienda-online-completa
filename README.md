@@ -24,3 +24,6 @@ npx create-next-app 1basiconext
 `
 npm run dev
 `
+
+
+#### rfc para crear el esquema
