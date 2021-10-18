@@ -1,4 +1,5 @@
 import './App.css';
+import Hook from './components/Hook';
 import Objecto from './components/Objecto';
 import Saludar from './components/Saludar';
 
@@ -35,6 +36,8 @@ function App() {
         user={user}
         saludarFn={saludarFn}
       />
+
+      <Hook />
     </div>
   );
 }
